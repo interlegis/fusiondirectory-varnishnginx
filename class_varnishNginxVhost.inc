@@ -72,6 +72,7 @@ class varnishNginxVhost extends simplePlugin
               ':','','Backends'
             )
           ),
+          new StringAttribute (_('Probe URL'),_('Special Probe URL for the Backends'), 'specialProbeURL', FALSE, '/' ),
           new TextAreaAttribute (
             _('Remarks'), _('Remarks for the Virtual Host.'),
             'description', FALSE
