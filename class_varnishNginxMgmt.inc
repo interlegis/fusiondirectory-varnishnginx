@@ -34,7 +34,7 @@ class varnishNginxMgmt extends simpleManagement
       'plShortName'   => _('Varnish/Nginx'),
       'plDescription' => _('Varnish/Nginx Vhost Management'),
       'plIcon'        => 'plugins/varnishnginx/images/icon.png',
-      'plSection'     => 'admin',
+      'plSection'     => 'systems',
       'plPriority'    => 40,
       'plCategory'    => array('varnishNginx' => array('description'  => _('Varnish/Nginx Vhost'),
                                                        'objectClass'  => array('varnishNginxVhost'))),
